@@ -40,7 +40,7 @@ v = np.zeros((m, n))
 while t <= tmax:
     ut = np.zeros((m, n))
     vt = np.zeros((m, n))
-    Resolution(u,v,P,dx,dy,dt,m,n,nu,V1,ut,vt)
+    Resolution_1(u,v,P,dx,dy,dt,m,n,nu,V1,ut,vt)
     print(v[m-1,:])
     if cd == 0 :
         Graph_pressure(P,CordX,CordY,u,v)

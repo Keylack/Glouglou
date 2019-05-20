@@ -1,6 +1,5 @@
 def Graph_pressure(P, CordX, CordY, u, v):
-    import numpy as np
-    import matplotlib.pyplot as plt
+
     plt.ion()
     plt.figure(1)
     plt.clf()
